@@ -353,11 +353,12 @@ section .text-description {
 
     header,
     section {
-        padding: 20px;
+        padding: 10px;
     }
 
     .section {
         gap: 32px;
+        padding: 20px;
 
         .right-content {
             .text {
@@ -422,13 +423,13 @@ section .text-description {
 
     header,
     section {
-        padding: 20px;
+        padding: 10px;
     }
 
     .section {
         gap: 32px;
 
-        .right-content {
+        .right-content {    
             .text {
                 flex-direction: column;
                 justify-content: center;
@@ -482,5 +483,12 @@ section .text-description {
         flex-direction: column;
         width: 100%;
         gap: 50px;
+    }
+    section .right-content .text h1.name {
+
+        width: 100%;
+    }
+    section .right-content .paragraf {
+        margin-bottom: 30px;
     }
 }
