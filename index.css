@@ -161,7 +161,6 @@ section .right-content {
     }
 
     .paragraph {
-        margin-bottom: 24px;
 
         p {
             font-size: 18px;
@@ -172,6 +171,7 @@ section .right-content {
     .buttons {
         display: flex;
         gap: 12px;
+        margin-top: 20px;
 
         button {
             padding: 8px 12px;
